@@ -1,0 +1,159 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+a{
+    list-style: none;
+}
+
+.div-header, .body-one, .body-two, .body-three, .footer{
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+
+.main-flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-header, .footer{
+    background-color: #1F2937 ;
+    color: white;
+}
+
+.header-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.header-content{
+    display: flex;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-para-bold{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.header-button, .body-button{
+    background-color: #3882F6;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.body-one-content{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.body-one{
+    padding-top: 20px;
+}
+
+.body-one-title{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-with-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+
+img{
+    border-radius: 25px;
+}
+
+.text{
+    text-align: center;
+}
+
+.body-two{
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.para-review, .author{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.author{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.body-three-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 50px 0px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+
+.bold-content{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.body-button{
+    border: solid 1px white;
+}
+
+.footer{
+    padding: 30px 0px;
+    text-align: center;
+}
+
